@@ -1,6 +1,5 @@
 "use client";
 import styles from "./signin.module.css";
-import Link from "next/link";
 import { register } from "@/assets/imagesrafce";
 import React, { ChangeEvent, useState } from "react";
 import { fetchSigninUser } from "../../api/login";

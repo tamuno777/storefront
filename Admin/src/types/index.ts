@@ -41,7 +41,7 @@ export interface InputProps {
   name: string;
   holder: string;
   icons?: any;
-  value: string;
+  value: string | number;
   handleChange: (e: ChangeEvent<HTMLInputElement>) => void;
   inputStyle?: string;
 }
